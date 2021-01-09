@@ -78,6 +78,7 @@ public class Enemy extends Movable {
         }
     }
 
+
     public void move(int speed) {
         this.y = y + speed;
     }
